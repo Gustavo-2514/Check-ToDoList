@@ -1,0 +1,40 @@
+@media(max-width:545px ){
+    .containerTitle{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        .containerButtons{
+            display: flex;
+            flex-direction: column; 
+            margin-bottom: 1rem;
+
+        }
+    }
+
+}
+
+@media(max-width:525px){
+    .containerTask{
+        display: flex;
+        flex-direction: column;
+
+        .labelTask{
+            margin-bottom: 1rem;
+            text-align:  center;
+            font-size: 1.32rem !important;
+            font-weight: 500;
+        }
+
+        .containerInputTask{
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem !important;
+            .inputRadio{
+                
+                height: 25px;
+            }
+        }
+    }
+    
+
+}

@@ -1,0 +1,17 @@
+.containerAuthInput{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    gap: 1rem;
+}
+
+.labelAuthInput{
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.inputAuthInput{
+    padding: 0.6rem;
+}
+

@@ -1,0 +1,35 @@
+.titleHome {
+  font-size: 4rem;
+}
+
+.paragraphHome {
+  font-size: 1.8rem;
+  font-weight: 100;
+}
+
+.homeBtn {
+  transition: border-radius 0.3s;
+  padding: 1.2rem;
+  font-weight: 700;
+
+  &:hover {
+    border-radius: 1.8rem;
+  }
+}
+
+@media (max-width: 525px) {
+  .containerHome {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 375px) {
+  .titleHome {
+    font-size: 3.5rem;
+  }
+
+  .paragraphHome {
+    font-size: 1.41rem;
+  }
+}
