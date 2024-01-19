@@ -4,6 +4,7 @@ import { useContext, useRef, useState } from "react";
 import { Context, useContextProvider } from "../../context/useContext";
 import { Link, useNavigate } from "react-router-dom";
 import { cleanErrors } from "../../helpers/cleanErrors";
+import Terms from "../Alert";
 
 export default function FormRegister() {
   const userDefault = {
@@ -12,7 +13,7 @@ export default function FormRegister() {
     password: "",
     confirmPassword: "",
   };
-  const [user, setUser] = useState(userDefault); 
+  const [user, setUser] = useState(userDefault);
   const errorsRef = useRef([]);
   const { register } = useContextProvider();
   const navigate = useNavigate();
@@ -110,6 +111,9 @@ export default function FormRegister() {
               Entrar
             </Link>
           </span>
+
+          <Terms text={'Por favor, ao se cadastrar, evite o uso de informações pessoais sensíveis. Recomendamos utilizar dados de teste, pois esta aplicação é de código aberto e destinada a servir como um portfólio, visando a proteção da sua privacidade!'} />
+
         </form>
       </div>
     </Container>
