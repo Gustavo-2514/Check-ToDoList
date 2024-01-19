@@ -1,6 +1,6 @@
 # API -Projeto (Check - ToDoList)
 
-API 100% desenvolvida por mim. Sem seguir nenhum tutorial!
+Front end 100% desenvolvido por mim. Sem seguir nenhum tutorial!
 
 ## Descrição
 
