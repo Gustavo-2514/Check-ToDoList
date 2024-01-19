@@ -112,8 +112,11 @@ export default function FormRegister() {
             </Link>
           </span>
 
-          <Terms text={'Por favor, ao se cadastrar, evite o uso de informações pessoais sensíveis. Recomendamos utilizar dados de teste, pois esta aplicação é de código aberto e destinada a servir como um portfólio, visando a proteção da sua privacidade!'} />
-
+          <Terms
+            text={
+              "Por favor, ao se cadastrar, evite o uso de informações pessoais sensíveis. Recomendamos utilizar dados de teste, pois esta aplicação é de código aberto e destinada a servir como um portfólio, visando a proteção da sua privacidade!"
+            }
+          />
         </form>
       </div>
     </Container>
