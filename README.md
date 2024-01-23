@@ -20,7 +20,7 @@ O Frontend, foi construido com ***React*** e ***Bootstrap***, e é 100% responsi
   - Responsividade  
   - Layout
  
--  **Sass**
+- **Sass**
   - Layout
 
 - **Reactstrap**
