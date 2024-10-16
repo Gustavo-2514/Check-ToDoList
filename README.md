@@ -1,4 +1,4 @@
-# API -Projeto (Check - ToDoList)
+# Projeto (Check - ToDoList)
 
 Front end 100% desenvolvido por mim. Sem seguir nenhum tutorial!
 
